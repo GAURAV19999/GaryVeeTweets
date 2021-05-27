@@ -1,5 +1,5 @@
 # GaryVeeTweets
-Simple Analysis of Gary Vee's Tweets in Python. The tweets scraped where from January 1st 2020 until January 12th 2021.
+WorldCloud and Sentiment Analysis of Gary Vee's Tweets in Python. The tweets scraped were from January 1st 2020 until January 12th 2021.
 
 ### Frameworks
 - PIL - Image processing library
@@ -22,6 +22,8 @@ pip install git+https://github.com/JustAnotherArchivist/snscrape.git
 Python 3.8 or higher is required for snscrape
 
 ### How to run 
+Using snscrape to scrape the tweets from Twitter.
+
 Execute the following command on the terminal
 ``` sh
 snscrape --jsonl --progress --since 2020-01-01 twitter-search "from:garyvee" > Gary_data.json
@@ -36,6 +38,6 @@ snscrape --jsonl --progress --since 2020-01-01 twitter-search "from:garyvee" > G
 
 The result tweets are saved as the **Gary_data.json** file.
 
-The **GaryVeeWC.ipynb** should be executed in either Jupyter Notebooks or Google Collab. 
+The **GaryVeeWC.ipynb** contains the code and outputs for WorldCloud and Senitment Analysis. It should be executed in either Jupyter Notebooks or Google Collab. 
 
 
